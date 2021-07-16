@@ -49,10 +49,11 @@ public class SpringbootAuthUpdatedApplication {
 			
 			Rolle rolle1 = new Rolle("admin");
 			Rolle rolle2 = new Rolle("user");
-
+			Rolle rolle3 = new Rolle("Moderator");
 			
 			rolleRepository.save(rolle1);
 			rolleRepository.save(rolle2);
+			rolleRepository.save(rolle3);
 
 					
 			

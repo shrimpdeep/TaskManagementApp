@@ -73,10 +73,11 @@ public class SpringbootAuthUpdatedApplication {
 
 			Event event1 = new Event("Party2", LocalDateTime.now(), LocalDateTime.now(), rolle2);
 			Event event2 = new Event("Party3", LocalDateTime.now(), LocalDateTime.now(), rolle1);
-			
+			Event event3 = new Event("Modiparty", LocalDateTime.now(), LocalDateTime.now(), rolle3);
 
 			eventRepository.save(event1);
 			eventRepository.save(event2);
+			eventRepository.save(event3);
 
 		};
 		

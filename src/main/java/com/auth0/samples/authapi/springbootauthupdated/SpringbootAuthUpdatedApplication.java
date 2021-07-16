@@ -59,11 +59,16 @@ public class SpringbootAuthUpdatedApplication {
 			
 			ApplicationUser user1 = new ApplicationUser("Sam", "779782");
 			ApplicationUser user2 = new ApplicationUser("Jacob", "456");
+			ApplicationUser user3 = new ApplicationUser("Manuel", "412");
+
 			user1.setRolleFs(rolle1);
 			user2.setRolleFs(rolle2);
+			user2.setRolleFs(rolle3);
+
 
 			userRepository.save(user1);
 			userRepository.save(user2);
+			userRepository.save(user3);
 
 
 			Event event1 = new Event("Party2", LocalDateTime.now(), LocalDateTime.now(), rolle2);
